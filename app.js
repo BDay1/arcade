@@ -111,7 +111,6 @@ playName.addEventListener('click', function(event){
       return boardIdx.every(function(index) {
            if (winCond.some(checkWin)) {
             alert("Win") 
-           state.board[index].char;
           }
          })
          
