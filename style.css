@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+
+ body{
+    background-color: #e3e3e6;
+ }
+
+.tac-grid {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 175px);
+    grid-template-rows: repeat(3, 175px);
+    background-color: #935238;
+    width:fit-content;
+    grid-gap: 5px; 
+    font-family: 'Comforter', cursive;
+ 
+}
+#playerNames{
+  margin: 10px;
+}
+input{
+  display: flex;
+  padding: 3px;
+  margin: 3px;
+}
+button{
+  height: 25px;
+  width: 100px;
+  padding: 4px;
+  margin: 3px;
+}
+button:hover{
+  transform: scale(1.15);
+}
+
+.cell {
+    background-color: #3a3f42;
+    font-size: 100PX;
+    text-align: center;
+    padding: 20px;
+ }
+
+h1{
+    display: flex;
+    justify-content: center;
+}
